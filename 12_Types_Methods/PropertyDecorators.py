@@ -29,7 +29,7 @@ print(c1.ModelPricing)
 # So i change it now 
 c1.model=2022
 # Now printing the price of self again after correcting the model year 
-print(c1.ModelPricing) # This does not change the value because it is set during object creation so we have to use 
+print(c1.ModelPricing) # This doe s not change the value because it is set during object creation so we have to use 
 
 # create new Funtion to calculate price seperatley or just use the Property Decorator 
 
