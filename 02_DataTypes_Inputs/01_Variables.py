@@ -13,7 +13,7 @@ pat_fullName="John Smith"
 pat_new=True
 
 # It is important to note that Python automatically describes the data types of for you 
-
+# There is No need For Explicit Data Type Declaration in case of Python 
 name ="Sian Rodrigues "
 print(name +"Hello ")
 
