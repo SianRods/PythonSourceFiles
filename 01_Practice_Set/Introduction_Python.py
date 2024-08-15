@@ -12,3 +12,7 @@ engine.runAndWait()
 #  2] No Endline Semicolons 
 #  3] It is Procedural Oreinted as well as object oreinted Language 
 # 4] It is not a compiled language and is purely interpreted language unline C and jAVA 
+
+# Formatted Output in case of Python
+name =input("Enter your name : ")
+print(f'Hello World my name is {name}')
