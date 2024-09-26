@@ -23,7 +23,7 @@ class Animal :
 
 
 dog = Animal() # Object has been Created 
-# dog.name="Daryl's Dog"
+dog.name="Daryl's Dog"
 print(dog.name)
 
 dog._legs_()

@@ -1,8 +1,8 @@
-# Note that whenever we create normal functions within a class they are related to the instances of the class 
+# Note that whenever we create normal functions within a class they are related to the instances of the class (i.e related with each object)
 #  i.e the objects which are created and passed 
 #  But static methods are those which :
 # Static methods are defined using the @staticmethod decorator.
-# They do not take the self or cls parameters.
+# They do not take the self or cls parameters. --> Important Point to be noted
 # They can be called on the class itself or on an instance of the class.
 # Static methods are useful for utility functions that are related to the class 
 # but do not need to access class or instance-specific data
@@ -14,7 +14,7 @@ class Wars:
 
 	@staticmethod  # --> Decorators
 	def printReq():
-		print("This is WAR class ")
+		print("This is War class ")
 
 
 w1 = Wars()

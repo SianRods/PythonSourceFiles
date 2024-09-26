@@ -1,6 +1,8 @@
 # Class Methods are special methods denoted using the decorator to make changes in the class attributes directly 
 # which is not possible using the methods like Static and Normal ones 
 
+#  all class methods necessarily take 'cls' as its first argument !
+
 #  Lets Understand this using an example : -
 
 class Car : 

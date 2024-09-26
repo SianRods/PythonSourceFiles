@@ -17,6 +17,7 @@ s1 = Solution()
 # function wihtin a class
 
 # Note that here the self parameter denotes the 'this' instance of the class 
+# i.e it is pointing to the current instance of the given class during the call
 
 class Sample:
 	a=10

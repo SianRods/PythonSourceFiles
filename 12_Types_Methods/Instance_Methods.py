@@ -1,4 +1,5 @@
 # Instance Methods are related to the instances of the class i.e --> Objects 
+# It is important to note that all the instance methods necessarily take the 'self ' as an argument !
 
 class Car : 
 	name ="Default "

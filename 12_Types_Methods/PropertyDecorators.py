@@ -17,21 +17,22 @@ class Car :
 		self.model=model
 		print("Your car is manufactured in the year : ",model)
 		# Calculating the Price --> in the Constuctor itself 
-	
-	@property
-	def ModelPricing(self):
-		self.price= Car.price*Car.modelDict.get(self.model)
-		return self.price
+	def pricingsol(self,model):
+		return model
+	# @property
+	# def ModelPricing(self):
+	# 	self.price= Car.price*Car.modelDict.get(self.model)
+	# 	return self.price
 	
 c1 = Car(2024)
-print(c1.ModelPricing)
+# print(c1.ModelPricing)
 # Now Consider a Senario where i had inputted a wrong model 
 # So i change it now 
-c1.model=2022
+# c1.model=2022
 # Now printing the price of self again after correcting the model year 
-print(c1.ModelPricing) # This doe s not change the value because it is set during object creation so we have to use 
+# print(c1.ModelPricing) # This does not change the value because it is set during object creation so we have to use 
 
 # create new Funtion to calculate price seperatley or just use the Property Decorator 
 
-# Function can be made as property --> Automatic change wothout individually changing all the values 
+# Function can be made as property --> Automatic change without individually changing all the values 
 
