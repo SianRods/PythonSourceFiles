@@ -5,6 +5,7 @@ print(len(tup))
 
 print(tup)
 # It is Important to note that the tuples are immutable data types 
+# Tuples can store homogenous Data 
 
 print(tup.__contains__("er")) #  Whether the Given Tuple Consists of the Given Element 
 

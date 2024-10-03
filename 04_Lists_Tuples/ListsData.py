@@ -7,7 +7,7 @@ print(list)
 # printing the first index of the list 
 print("The Size of the given list is : ",len(list))
 
-# Python Supports List Under Lists  	
+# Python Supports List Under Lists / Nested Lists 
 
 print(list[0])
 print(list[2])
