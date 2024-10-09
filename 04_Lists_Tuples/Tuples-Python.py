@@ -17,7 +17,7 @@ print(type(str))
 
 # count() and index() methods in tuples 
 
-tup =(2,2,12,324,2,424,242)
+tup =(2,2,12,324,2,424,242,'42')
 print(tup)
 
 sel=int(input("Enter the number you want to count --"))
